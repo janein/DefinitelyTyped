@@ -227,6 +227,7 @@ declare class SwiperSlide {
     insertAfter(index: number): SwiperSlide;
     prepend(): SwiperSlide;
     remove(): void;
+    progress?: number;
 }
 
 declare class Swiper {
